@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var s=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:s};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(t){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d3f591/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"","baseUri":"","name":"blog","domain":"daniel-azuma.com","features":{"horizontalNavLayout":true,"asyncPermanentDelete":false,"ritzSupport":true,"folderEmbed":true,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":true,"analyticsTrackingForCorp":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"helpBox":true,"siteNotice":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"ritzChartSupport":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"plusPost":true,"photoAlbumsGPlusUrlSupport":true,"siteChromeHeaderDialog":true,"fileCabinetOptions":true,"sitesLoveFixes":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Daniel Azuma","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":false,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:583b2472f184df59","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:63933589a24d6669","revision":10,"title":"Part 2","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"part-2","path":"/articles/georails/part-2","isSiteRtlLocale":false,"parentPath":"/articles/georails"};
+webspace.page.breadcrumbs = [{"title":"Articles","dir":"ltr","path":"/articles","deleted":false},{"title":"GeoRails","dir":"ltr","path":"/articles/georails","deleted":false},{"title":"Part 2","dir":"ltr","path":"/articles/georails/part-2","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d3f591/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/trogedit.css',
+    '/_/rsrc/1399440112000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codeeditor.css',
+    '/_/rsrc/1399440112000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d3f591/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Part 2 - Daniel Azuma" />
+<meta itemprop="name" content="Part 2 - Daniel Azuma" />
+<meta property="og:title" content="Part 2 - Daniel Azuma" />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Limelight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Limelight'), url('//themes.googleusercontent.com/static/fonts/limelight/v5/kD_2YDkzv1rorNqQ2oFK5qCWcynf_cDxXwCLxiixG1c.ttf') format('truetype');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d3f591/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/overlay.css?cb=simple20a960px158210goog-ws-nav-rightnone30topstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Part 2 - Daniel Azuma</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5678/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="sites-chrome-header-valign-top" style="height: 158px"><div class="sites-header-cell-buffer-wrapper"><h2></h2></div></td><td class="sites-layout-searchbox sites-chrome-header-valign-top"><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-tabs"><li class="unselected"><a class="sites-navigation-link unselected" href="/updates">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/contact">Contact</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+<A dir="ltr" href="/articles">Articles</A>‎ &gt; ‎<A dir="ltr" href="/articles/georails">GeoRails</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr">Part 2</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><h1><a name="TOC-Geo-Rails-Part-2:-Setting-Up-a-Geospatial-Rails-App"></a>Geo-Rails Part 2: Setting Up a Geospatial Rails App</h1>
+<p><em>Originally published Nov 28, 2011</em></p>
+<p>
+Before going in depth into any particular topic, I thought it would be useful to write a getting-started tutorial, walking through setting up and working with a simple example Rails app using RGeo. In this tutorial, we will:
+</p>
+<ul>
+<li>Install the main software components we need for a geospatial application, including a spatial database and the needed Ruby libraries.</li>
+<li>Set up a new Rails application configured to use the spatial database.</li>
+<li>Create an ActiveRecord model with a spatial attribute.</li>
+<li>Experiment with location data in the model.</li>
+<li>Perform simple spatial queries.</li>
+</ul>
+<p>
+This should help you get started writing basic location features in Rails, giving you a feel for what the tools are and how they fit together.
+</p>
+<p>
+This is part 2 of my series of articles on geospatial programming in Ruby and Rails. For a list of the other installments, please visit <a href="http://daniel-azuma.com/articles/georails" target="_blank" title="Geo-Rails article series">http://daniel-azuma.com/articles/georails</a>.
+</p>
+<h2><a name="TOC-Installing-the-software"></a>Installing the software</h2>
+<p>
+First, you'll need a spatial database. Recent versions of <a href="http://mysql.com/" target="_blank" title="MySQL">MySQL</a> have basic spatial features built in, but I generally recommend using <a href="http://www.postgresql.org/" target="_blank" title="PostgreSQL">PostgreSQL</a> and installing the <a href="http://www.postgis.org/" target="_blank" title="PostGIS">PostGIS</a> add-on, because PostGIS is a much more feature complete and better supported product. For the rest of this example, I'll assume you're using PostGIS.
+</p>
+<p>
+If you have a package manager such as apt-get, yum, <a href="http://www.macports.org/" target="_blank" title="MacPorts">MacPorts</a>, or <a href="http://brew.sh/" target="_blank" title="Homebrew">Homebrew</a>, that's usually the easiest way to install PostGIS. Your package manager should also install PostGIS's dependencies, including PostgreSQL itself and two important libraries: <a href="http://geos.osgeo.org/" target="_blank" title="GEOS">GEOS</a> and <a href="http://proj.osgeo.org/" target="_blank" title="Proj">Proj</a>.
+</p>
+<p>
+If you need to build and install from source, you can download PostGIS from <a href="http://www.postgis.org/" target="_blank">http://www.postgis.org/</a> and review the instructions in the documentation section there. You will first need to build and install PostgreSQL (<a href="http://www.postgresql.org/" target="_blank">http://www.postgresql.org/</a>), GEOS (<a href="http://geos.osgeo.org/" target="_blank">http://geos.osgeo.org/</a>) and Proj (<a href="http://proj.osgeo.org/" target="_blank">http://proj.osgeo.org/</a>). The build configuration for PostGIS requires that you provide the paths to your installations of those three dependencies.
+</p>
+<p>
+We'll use the latest Rails 3.1 release for this example. Most of the gems you require will come with a simple <code>gem install rails</code>. However, to hook up with PostGIS, you'll need a few more gems. Installing these gems will require you to know where the database software was installed. Specifically, you need the <code>--prefix</code> for the GEOS and Proj libraries, and you need the path to the <code>pg_config</code> binary in your PostgreSQL installation.
+</p>
+<p>
+Obviously, these locations will depend on how you installed the software. If you used MacPorts on Mac OS X, things get installed in <code>/opt/local</code>. So here are the gem install commands for that case. If you used a different system, you'll need to modify the paths accordingly.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> gem install pg -- --with-pg-config=/opt/local/bin/pg_config
+<em>%</em> gem install rgeo -- --with-geos-dir=/opt/local \
+    --with-proj-dir=/opt/local
+<em>%</em> gem install activerecord-postgis-adapter</pre>
+<p>
+The main gem you just installed is <code>activerecord-postgis-adapter</code>, which provides a special ActiveRecord adapter for talking to PostGIS and handling geospatial data.
+</p>
+<h2><a name="TOC-Setting-up-the-Rails-app"></a>Setting up the Rails app</h2>
+<p>
+Now, we'll build our Rails app. I'll assume you're using the latest Rails 3.1.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> rails new geo_rails_test -d postgresql</pre>
+<p>
+Rails out of the box doesn't know about PostGIS, but if we set the database initially to PostgreSQL, Rails will be able to set up most of the configuration for you. Now we just need to do some tweaking.
+</p>
+<p>
+Add the PostGIS ActiveRecord adapter to your <code>Gemfile</code>, by inserting this line:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">gem 'activerecord-postgis-adapter'</pre>
+<p>
+Install the adapter into your Rails app by inserting this line into <code>config/application.rb</code>, just after the <code>require 'rails/all'</code> line:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">require 'active_record/connection_adapters/postgis_adapter/railtie'</pre>
+<p>
+Now we need to modify <code>config/database.yml</code> to use the PostGIS adapter. There are several different strategies for handling the database, but I'll choose a simple one to get you started. For each of the environments in your <code>database.yml</code>, do the following:
+</p>
+<p>
+First, change the "<code>adapter</code>" from "<code>postgresql</code>" to "<code>postgis</code>".
+</p>
+<p>
+Next, add the following line to each environment:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">schema_search_path: "public,postgis"</pre>
+<p>
+Next, add the following line to your development and test environments. The path should match the scripts directory installed by PostGIS. Assuming you used MacPorts and installed PostGIS 1.5.x, the path will probably be as follows, but you should modify it depending on where PostGIS was installed:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">script_dir: /opt/local/share/contrib/postgis-1.5</pre>
+<p>
+You'll set up <em>two</em> users in the database. One is the normal database user that your Rails app will connect as. The other needs to be a superuser, and is used to create the databases initially (i.e. using <code>rake db:create</code>). Creating a PostGIS database requires superuser privileges unless you set up a special template for it, and for simplicity, we won't do that right now.
+</p>
+<p>
+Your normal user should be specified by the "username" and "password" properties:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">username: geo_rails_test
+password: &lt;your-password&gt;</pre>
+<p>
+The superuser for creating the database should be specified by the "su_username" and "su_password" properties:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">su_username: geo_rails_test_creator
+su_password: &lt;your-password&gt;</pre>
+<p>
+You will, of course, also need to create these users in the database. You can do so by running the PostgreSQL "<code>createuser</code>" command:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> createuser --pwprompt --superuser geo_rails_test_creator
+<em>%</em> createuser --pwprompt geo_rails_test</pre>
+<p>
+Now, you should be able to create the database. A PostGIS database has several internal tables and a bunch of functions and other objects built in. If the configuration above has been set up correctly, the <code>activerecord-postgis-adapter</code> should be able to create all of this internal structure for you automatically.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> rake db:create</pre>
+<p>
+The hard part is over! Now we can start building models with location features.
+</p>
+<h2><a name="TOC-A-model-with-location"></a>A model with location</h2>
+<p>
+Most databases will support the familiar data types such as strings, integers, floating-point values, booleans, and the like. Spatial databases are simply normal databases that include support for several additional data types commonly used to represent location. These data types can include points on the surface of the earth (latitude and longitude) as well as lines, polygons, and other shapes. RGeo, together with the <code>activerecord-postgis-adapter</code>, lets you interact with these data types just like you would any other attribute on an ActiveRecord object.
+</p>
+<p>
+For this tutorial, we will create a simple model that includes a location. If you have represented location in an database before, you may have simply added two columns to your database, one for latitude and one for longitude. In a spatial database, you represent a location with a single column whose type is "point". A point type is simply an ordered pair of latitude and longitude.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> rails generate model Location name:string latlon:point</pre>
+<p>
+Before we migrate the database, let's look at the migration that was generated. It should look something like this:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">class CreateLocations &lt; ActiveRecord::Migration
+  def change
+    create_table :locations do |t|
+      t.string :name
+      t.point :latlon
+      t.timestamps
+    end
+  end
+end</pre>
+<p>
+Notice that the "<code>latlon</code>" column is of type "point". Spatial data types such as "point" often have further configurations that you may need to apply-- similar to how, for example, string columns can have length limits, or other types can have various constraints. In our case we want the latlon column to contain not just any two-dimensional coordinate, but specifically a latitude and longitude. To specify this, we will add the "geographic" constraint to it. Change the "<code>latlon</code>" column in the migration and add "<code>:geographic =&gt; true</code>". Now your migration should look like:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">class CreateLocations &lt; ActiveRecord::Migration
+  def change
+    create_table :locations do |t|
+      t.string :name
+      t.point :latlon, :geographic =&gt; true
+      t.timestamps
+    end
+  end
+end</pre>
+<p>
+One last thing we should do is configure the model class so it knows what kind of geospatial data you are storing. For the most part, the <code>activerecord-postgis-adapter</code> is able to infer most of this information from the database. However, this inference is not perfect, and anyway it is generally good practice to set this explicitly, for documentation sake if for nothing else.
+</p>
+<p>
+Open your <code>app/models/location.rb</code> and add a line to the Location class:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">class Location &lt; ActiveRecord::Base
+  set_rgeo_factory_for_column(:latlon,
+    RGeo::Geographic.spherical_factory(:srid =&gt; 4326))
+end</pre>
+<p>
+That line says, for the "<code>latlon</code>" field, use a spherical geographic coordinate system with spatial reference ID 4326. This means, computations done in Ruby will assume a spherical earth, and the spatial reference ID should be set to 4326 to match what PostGIS expects for a "geographic" column. In many cases, you can configure each geographic column in this same way. For now, don't worry too much about the details. We'll cover coordinate systems and spatial references in a later article.
+</p>
+<p>
+Now run the migration to get this table into your database.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> rake db:migrate</pre>
+<p>
+Now that we've got the model set up and the database migrated, let's take a look into the actual location data in the model.
+</p>
+<h2><a name="TOC-Working-with-location-data"></a>Working with location data</h2>
+<p>
+For simplicity, let's dive into the rails console to start playing with our new model.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>%</em> rails console
+<em>Loading development environment (Rails 3.1.3)</em>
+<em>ruby-1.9.3-p0 :001 &gt;</em></pre>
+<p>
+An ActiveRecord model with spatial data is just the same as any other ActiveRecord model. We can create and start working with it directly in the console:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :001 &gt;</em> loc = Location.create
+ <em>=&gt; #&lt;Location id: 1, name: nil, latlon: nil, created_at: "2011-11-28 02:52:10",</em>
+     <em>updated_at: "2011-11-28 02:52:10"&gt;</em></pre>
+<p>
+Our model has two attributes, the "<code>name</code>" string and the "<code>latlon</code>" point. They started off as nil, but we can set them.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :002 &gt;</em> loc.name = "Pirq Headquarters"
+<em>ruby-1.9.3-p0 :003 &gt;</em> loc.latlon = "POINT(-122.193963 47.675086)"</pre>
+<p>
+Note the string that we used to set the latlon field. This is a standard syntax called "WKT" (Well-Known Text), which is commonly used in spatial applications. In the WKT representation of a location, notice that the longitude comes first, and there is no comma between longitude and latitude. The model understands WKT syntax when you set data, but internally converts it to a "point" object.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :004 &gt;</em> loc.latlon
+ <em>=&gt; #&lt;RGeo::Geographic::SphericalPointImpl:0x817d61f4</em>
+     <em>"POINT (-122.193963 47.675086)"&gt;</em></pre>
+<p>
+A point object is one of the spatial Ruby classes provided by RGeo. Using these spatial classes, you can perform powerful geometric and geographic computations and analyses, or you can simply use them to pass data around. We will cover some of their capabilities in later entries in this blog series. For now, here's a quick example, measuring the distance between two Location objects:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :005 &gt;</em> loc2 = Location.create(:name =&gt; 'Space Needle',
+                        :latlon =&gt; 'POINT(-122.349341 47.620471)')
+<em>ruby-1.9.3-p0 :006 &gt;</em> puts "Distance is %.02f meters" %
+                      loc.latlon.distance(loc2.latlon)
+<em>Distance is 13143.18 meters</em></pre>
+<p>
+You do not have to set a spatial field using WKT; you can also set it directly using a spatial object such as a point object. For example, you can set the Pirq Headquarters location to be the same as the Space Needle location:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :007 &gt;</em> loc.latlon = loc2.latlon
+ <em>=&gt; #&lt;RGeo::Geographic::SphericalPointImpl:0x8175f234</em>
+     <em>"POINT (-122.349341 47.620471)"&gt;</em></pre>
+<p>
+Spatial attributes are loaded and saved in the same way as any other attribute on your model. So until you save the "loc" object, the latlon value in the database remains unchanged.
+</p>
+<h2><a name="TOC-Querying-by-location"></a>Querying by location</h2>
+<p>
+The real power of a spatial database such as PostGIS comes from its query capabilities. Spatial databases typically provide a rich set of SQL functions that you can use to build a wide variety of location-based queries.
+</p>
+<p>
+Let's go through a couple of simple examples, querying against the two locations we just created. (We'll assume you didn't save loc in the previous example, so the two model objects still have their different latlon values.)
+</p>
+<p>
+These first two queries find the objects, respectively less than and greater than 10 kilometers from a particular point (the location of the Columbia Tower in downtown Seattle).
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :008 &gt;</em> Location.where("ST_Distance(latlon, "+
+                   "'POINT(-122.330779 47.604828)') &lt; 10000").
+                   map{ |ar| ar.name }
+ <em>=&gt; ["Space Needle"]</em>
+<em>ruby-1.9.3-p0 :009 &gt;</em> Location.where("ST_Distance(latlon, "+
+                   "'POINT(-122.330779 47.604828)') &gt; 10000").
+                   map{ |ar| ar.name }
+ <em>=&gt; ["Pirq Headquarters"]</em></pre>
+<p>
+The following query draws a triangle and finds the objects within the triangle.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto"><em>ruby-1.9.3-p0 :010 &gt;</em> Location.where("ST_Intersects(latlon, "+
+                   "'POLYGON((-122.19 47.68, -122.2 47.675, "+
+                   "-122.19 47.67, -122.19 47.68))')").
+                   map{ |ar| ar.name }
+ <em>=&gt; ["Pirq Headquarters"]</em></pre>
+<p>
+See the PostGIS documentation for a full set of the various spatial SQL functions you can use in your queries.
+</p>
+<p>
+Once you have a lot of data in your database, you'll need to add a spatial index to speed up location queries, similar to how you index any other column. However, there are some nuances in how you construct a spatial index, and especially how you should write queries to take advantage of a spatial index. This involves a separate discussion that I'll cover in a later article.
+</p>
+<h2><a name="TOC-Where-to-go-from-here"></a>Where to go from here</h2>
+<p>
+This has been a bit of a long entry, but an important first step towards working with spatial data in Rails. We've gone through setting up a Rails application with spatial capabilities, and investigated a few of the basic ways in which we can store, manipulate, and query spatial data.
+</p>
+<p>
+You may find it useful to start looking through the <a href="http://postgis.org/documentation/manual-1.5/" target="_blank" title="PostGIS online documentation">documentation</a> for PostGIS. This will give more detailed information about the how the database handles and queries spatial data. The <a href="http://dazuma.github.io/activerecord-postgis-adapter/rdoc/" target="_blank" title="readme">readme</a> for the activerecord-postgis-adapter gem provides more information about configuring the database connection from Rails.
+</p>
+<p>
+In upcoming articles, we'll start looking a little more deeply at the various topics we've touched on here, including working with RGeo's spatial Ruby classes, working with coordinate systems, and setting up spatial indexes. Stay tuned, and let's bring Rails down to earth!
+</p>
+<p>
+<em>This is part 2 of my series of articles on geospatial programming in Ruby and Rails. For a list of the other installments, please visit <a href="http://daniel-azuma.com/articles/georails" target="_blank" title="Geo-Rails article series">http://daniel-azuma.com/articles/georails</a>.</em>
+</p></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+</div>
+</div> 
+</td> 
+<td id="sites-chrome-sidebar-right" class="sites-layout-sidebar-right" style="width:210px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_20715116360224783" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1392135198793/updates/mug_small.jpg" />
+</p>
+<p style="text-align:center">
+Daniel Azuma is a software engineer in the Seattle area.</p></div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed"><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:77f758e02286adc5"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/articles" jotId="wuid:gx:77f758e02286adc5" class="sites-navigation-link topLevel">Articles</a></div><ul class="has-expander"><li class="parent " wuid="gx:63933589a24d6669"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/georails" jotId="wuid:gx:63933589a24d6669" class="sites-navigation-link">GeoRails</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-1" jotId="wuid:gx:21263add3704d85a" class="sites-navigation-link">Part 1</a></div></li><li class=""><div class="current-bg" jotId="wuid:gx:583b2472f184df59" dir="ltr" style="padding-left: 57px;">Part 2</div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-3" jotId="wuid:gx:2215c067d09b656d" class="sites-navigation-link">Part 3</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-4" jotId="wuid:gx:736c4f9a4a910dc3" class="sites-navigation-link">Part 4</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-5" jotId="wuid:gx:71e83b60478e8b52" class="sites-navigation-link">Part 5</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-6" jotId="wuid:gx:7c72159f0815753d" class="sites-navigation-link">Part 6</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-7" jotId="wuid:gx:538f6eeef4c76cfc" class="sites-navigation-link">Part 7</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-8" jotId="wuid:gx:7417ef859fc351a7" class="sites-navigation-link">Part 8</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-9" jotId="wuid:gx:4fae9206819b4a64" class="sites-navigation-link">Part 9</a></div></li></ul></li><li class="parent closed " wuid="gx:77f18de4f94a3c47"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/talks" jotId="wuid:gx:77f18de4f94a3c47" class="sites-navigation-link">Talks</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2012" jotId="wuid:gx:6a4476d67668a24a" class="sites-navigation-link">Geospatial Analysis With Rails (RailsConf 2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2013" jotId="wuid:gx:53413222cba48516" class="sites-navigation-link">Humanity on Rails (RailsConf 2013)</a></div></li></ul></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="http://dazuma.github.io/" class="sites-navigation-link topLevel" target="_blank">Github Projects</a></div></li></ul></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/daniel-azuma.com/blog/articles/georails/part-2">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Articles", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://gsite.daniel-azuma.com/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          if (webspace.features.siteNotice) {
+            JOT_setupNoticeManager();
+          }
+        </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

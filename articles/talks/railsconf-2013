@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var s=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:s};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(t){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d3f591/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"","baseUri":"","name":"blog","domain":"daniel-azuma.com","features":{"horizontalNavLayout":true,"asyncPermanentDelete":false,"ritzSupport":true,"folderEmbed":true,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":true,"analyticsTrackingForCorp":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"helpBox":true,"siteNotice":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"ritzChartSupport":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"plusPost":true,"photoAlbumsGPlusUrlSupport":true,"siteChromeHeaderDialog":true,"fileCabinetOptions":true,"sitesLoveFixes":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Daniel Azuma","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":false,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:53413222cba48516","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:77f18de4f94a3c47","revision":6,"title":"Humanity on Rails (RailsConf 2013)","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"railsconf-2013","path":"/articles/talks/railsconf-2013","isSiteRtlLocale":false,"parentPath":"/articles/talks"};
+webspace.page.breadcrumbs = [{"title":"Articles","dir":"ltr","path":"/articles","deleted":false},{"title":"Talks","dir":"ltr","path":"/articles/talks","deleted":false},{"title":"Humanity on Rails (RailsConf 2013)","dir":"ltr","path":"/articles/talks/railsconf-2013","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d3f591/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/trogedit.css',
+    '/_/rsrc/1399440112000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codeeditor.css',
+    '/_/rsrc/1399440112000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d3f591/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Humanity on Rails (RailsConf 2013) - Daniel Azuma" />
+<meta itemprop="name" content="Humanity on Rails (RailsConf 2013) - Daniel Azuma" />
+<meta property="og:title" content="Humanity on Rails (RailsConf 2013) - Daniel Azuma" />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Limelight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Limelight'), url('//themes.googleusercontent.com/static/fonts/limelight/v5/kD_2YDkzv1rorNqQ2oFK5qCWcynf_cDxXwCLxiixG1c.ttf') format('truetype');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d3f591/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/overlay.css?cb=simple20a960px158210goog-ws-nav-rightnone30topstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Humanity on Rails (RailsConf 2013) - Daniel Azuma</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5678/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="sites-chrome-header-valign-top" style="height: 158px"><div class="sites-header-cell-buffer-wrapper"><h2></h2></div></td><td class="sites-layout-searchbox sites-chrome-header-valign-top"><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-tabs"><li class="unselected"><a class="sites-navigation-link unselected" href="/updates">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/contact">Contact</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+<A dir="ltr" href="/articles">Articles</A>‎ &gt; ‎<A dir="ltr" href="/articles/talks">Talks</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr">Humanity on Rails (RailsConf 2013)</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><h1><a name="TOC-Humanity-on-Rails-RailsConf-2013-"></a>Humanity on Rails (RailsConf 2013)</h1>
+<p>
+On April 29, 2013, I gave a talk entitled "Humanity on Rails" at RailsConf in Portland, OR. The talk was a brief introduction to the philosophy of technology, targeted toward the Ruby and Rails developer community.
+</p>
+<p>
+This is a quick bibliography and a set of useful links related to my talk. The philosophy of technology is already a fairly large topic; so this is not an exhaustive list, but more of a selection of resources that I myself happen to be familiar with. Feel free to leave any additions that you think are worthwhile in the comments!
+</p>
+<p>
+<strong>Updated</strong>: The <a href="http://www.confreaks.com/videos/2443-railsconf2013-humanity-on-rails">video</a> is now available on Confreaks.
+</p>
+<h3><a name="TOC-Resources-related-to-the-talk-itself:"></a>Resources related to the talk itself:</h3>
+<ul>
+<li><a href="https://speakerdeck.com/dazuma/humanity-on-rails">Slides</a> available on SpeakerDeck.</li>
+<li>James Gary took some pretty detailed <a href="https://gist.github.com/jamesgary/5485898">notes here</a>. Thanks James!</li>
+<li>The <a href="http://www.confreaks.com/videos/2443-railsconf2013-humanity-on-rails" target="_blank">video of the talk</a> on Confreaks.</li>
+<li>The <a href="http://www.youtube.com/watch?v=xkljLxddVI4">Toyota commercial</a> on YouTube.</li>
+<li>You can find this page at <a href="http://daniel-azuma.com/railsconf2013">http://daniel-azuma.com/railsconf2013</a></li>
+</ul>
+<h3><a name="TOC-Here-are-a-few-fairly-accessible-books-that-are-good-for-getting-started:"></a>Here are a few fairly accessible books that are good for getting started:</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0226066231">Albert Borgmann, <em>Holding On To Reality</em>, 1999</a>. This is Borgmann's take on the nature of information and the metaphysics of information technology. It's a relatively quick read for people such as software engineers who are already well-versed in manipulating information, and serves as a useful jumping-off point into more difficult topics.</li>
+<li><span style="line-height:15px"><a href="http://www.amazon.com/dp/0679745408">Neil Postman, <em>Technopoly</em>, 1992</a>. Postman is a popular writer who covers some of the same ideas pioneered by thinkers like Ellul.</span></li>
+</ul>
+<h3><a name="TOC-A-selection-of-the-classics-on-philosophy-of-technology:"></a>A selection of the "classics" on philosophy of technology:</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0226066290">Albert Borgmann, <em>Technology and the Character of Contemporary Life</em>, 1984</a>. An influential work in which Borgmann introduces his "device paradigm" and how it describes the shape of modern life.</li>
+<li><span style="line-height:15px"><a href="http://www.amazon.com/dp/0394703901">Jacques Ellul, <em>The Technological Society</em>, 1964</a>. Jacques Ellul's classic work on technique as natural force and how it works itself out in various spheres of human existence and interaction. Dense but highly influential.</span></li>
+<li><a href="http://www.amazon.com/dp/0061319694">Martin Heidegger, <em>The Question Concerning Technology and Other Essays</em>, 1977</a>. Heidegger's essay is perhaps one of the quintessential works on the philosophy of technology, but it is quite abstract and requires a careful read.</li>
+<li><a href="http://www.amazon.com/dp/0262631598">Marshall McLuhan, <em>Understanding Media</em>, 1964</a>. Marshall McLuhan coined the phrase "The medium is the message" in this work, describing how the form of media and communication affects perception of its content.</li>
+<li><a href="http://www.amazon.com/dp/0226550273">Lewis Mumford, <em>Technics and Civilization</em>, 1934</a>. This is the work in which Mumford introduces his celebrated polytechnic vs monotechnic distinction, describing the different ways in which technology justifies itself as it interacts with human institutions.</li>
+</ul>
+<h3><a name="TOC-Some-more-recent-work-of-interest."></a>Some more recent work of interest.</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0415197554">Andrew Feenberg, <em>Questioning Technology</em>, 1999</a>. A critic of many of the traditional ideas in philosophy of technology, Feenberg emphasizes the various ways in which technology exists as a social and political phenomenon.</li>
+<li><a href="http://www.amazon.com/dp/0226468674">Richard Lanham, <em>The Economics of Attention</em>, 2006</a>. An lesser known but interesting work that explores the implications of the information economy and how it privileges attention.</li>
+<li><a href="http://www.amazon.com/dp/0226531988">Carl Mitcham, <em>Thinking Through Technology</em>, 1994</a>. A textbook-like overview of the work on philosophy of technology to date. Good discussion on philosophy from an engineering vs non-engineering perspective.</li>
+</ul>
+<h3><a name="TOC-Books-related-to-engineering-and-open-source:"></a>Books related to engineering and open source:</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0312141041">Samuel Florman, <em>The Existential Pleasures of Engineering</em>, 1976</a>. A sustained rebuttal against much of the negativism in contemporary studies on the philosophy of technology, this work promotes engineering as a rewarding and essential human activity.</li>
+<li><a href="http://www.amazon.com/dp/0312025599">Samuel Florman, <em>The Civilized Engineer</em>, 1987</a>. A follow-up to Florman's earlier work, discussing the nature of engineering and how engineers should approach their craft in a healthy and socially conscious way.</li>
+<li><span style="line-height:15px"><a href="http://www.amazon.com/dp/0596001088">Eric Raymond, <em>The Cathedral and the Bazaar, Revised Edition</em>, 2001</a>. A classic study of the nature of open source and how software engineering communities ought to be structured.</span></li>
+<li><a href="http://www.amazon.com/dp/0674018583">Steven Weber, <em>The Success of Open Source</em>, 2004</a>. This work by a political science scholar covers some of the same ground as Raymond's work, but from a more academic angle, showing how and why open source works as a system of economic and political organization.</li>
+</ul>
+<h3><a name="TOC-Books-related-to-faith-spirituality-and-technology:"></a>Books related to faith/spirituality and technology:</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/1587430584">Albert Borgmann, <em>Power Failure</em>, 2003</a>. Borgmann repackages many of his earlier ideas on technology and applies them towards a Christian audience.</li>
+<li><a href="http://www.amazon.com/dp/0801027810">Quentin Schultze, <em>Habits of the High-Tech Heart</em>, 2002</a>. Schultze's work is not as rigorous as some others, and has a particular theological bent that I find a little less satisfying. However, this is a very accessible and practical work that could be a useful entry point.</li>
+<li><a href="http://www.amazon.com/dp/189466728X">Egbert Schuurman, <em>Faith and Hope in Technology</em>, 2003</a>. Schuurman is a civil engineer who covers technology, philosophy, and theology. This is a solid work, and while I have not yet read Schuurman's other books, I expect they will be just as fruitful.</li>
+</ul>
+<h3><a name="TOC-A-collection-of-other-related-work-of-interest:"></a>A collection of other related work of interest:</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0743201337">Martin Buber, <em>I and Thou</em>, 1937</a>. A classic work on the philosophy of relating, comparing relationships of ontological parity and ontological dominance. I've found this a useful foil against the unhealthy kinds of relating privileged by some modern technology, and even an interesting model for relating to technology itself.</li>
+<li><span style="line-height:15px"><a href="http://www.amazon.com/dp/014303653X">Neil Postman, <em>Amusing Ourselves to Death</em>, 1985</a>. Postman discusses the implications of modern mass media, and television in particular, applying McLuhan's ideas to argue that entertainment culture has obliterated human communication.</span></li>
+</ul>
+<h3><a name="TOC-Groups-lists-blogs-and-other-online-resources:"></a>Groups, lists, blogs, and other online resources:</h3>
+<ul>
+<li><a href="https://groups.google.com/d/forum/philosophy-in-a-time-of-software">Philosophy in a Time of Software</a>: A mailing list comprising software engineers interested in philosophy. Some great discussion here.</li>
+<li><a href="http://words.steveklabnik.com">Steve Klabnik's blog</a>. Steve is one of a handful of Rubyists actively involved in studying and discussing philosophy and its relationship with engineering.</li>
+<li><span style="line-height:15px"><a href="https://www.facebook.com/groups/353960158010251/">The Digital Society</a>: A Facebook group related to technology and culture, with an additional emphasis on Christian theology. Good source of interesting links.</span></li>
+<li>The <a href="http://en.wikipedia.org/wiki/Philosophy_of_technology">Wikipedia entry</a> on Philosophy of Technology has a bunch of links and a larger bibliography that may be of some interest.</li>
+</ul>
+<h3><a name="TOC-Organizations-conferences-etc:"></a>Organizations, conferences, etc:</h3>
+<ul>
+<li><span style="line-height:15px"><a href="http://digitalethics.org">Center for Digital Ethics and Policy</a>.</span></li>
+<li><a href="http://www.spt.org">Society for Philosophy and Technology</a>, and its newer cousin, <a href="http://socphilinfo.org">Society for the Philosophy of Information</a>.</li>
+<li><a href="http://secure.pdcnet.org/techne">Techne</a>, the research journal of the Society for Philosophy and Technology.</li>
+</ul></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+</div>
+</div> 
+</td> 
+<td id="sites-chrome-sidebar-right" class="sites-layout-sidebar-right" style="width:210px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_20715116360224783" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1392135198793/updates/mug_small.jpg" />
+</p>
+<p style="text-align:center">
+Daniel Azuma is a software engineer in the Seattle area.</p></div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed"><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:77f758e02286adc5"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/articles" jotId="wuid:gx:77f758e02286adc5" class="sites-navigation-link topLevel">Articles</a></div><ul class="has-expander"><li class="parent closed " wuid="gx:63933589a24d6669"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/georails" jotId="wuid:gx:63933589a24d6669" class="sites-navigation-link">GeoRails</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-1" jotId="wuid:gx:21263add3704d85a" class="sites-navigation-link">Part 1</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-2" jotId="wuid:gx:583b2472f184df59" class="sites-navigation-link">Part 2</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-3" jotId="wuid:gx:2215c067d09b656d" class="sites-navigation-link">Part 3</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-4" jotId="wuid:gx:736c4f9a4a910dc3" class="sites-navigation-link">Part 4</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-5" jotId="wuid:gx:71e83b60478e8b52" class="sites-navigation-link">Part 5</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-6" jotId="wuid:gx:7c72159f0815753d" class="sites-navigation-link">Part 6</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-7" jotId="wuid:gx:538f6eeef4c76cfc" class="sites-navigation-link">Part 7</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-8" jotId="wuid:gx:7417ef859fc351a7" class="sites-navigation-link">Part 8</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-9" jotId="wuid:gx:4fae9206819b4a64" class="sites-navigation-link">Part 9</a></div></li></ul></li><li class="parent " wuid="gx:77f18de4f94a3c47"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/talks" jotId="wuid:gx:77f18de4f94a3c47" class="sites-navigation-link">Talks</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2012" jotId="wuid:gx:6a4476d67668a24a" class="sites-navigation-link">Geospatial Analysis With Rails (RailsConf 2012)</a></div></li><li class=""><div class="current-bg" jotId="wuid:gx:53413222cba48516" dir="ltr" style="padding-left: 57px;">Humanity on Rails (RailsConf 2013)</div></li></ul></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="http://dazuma.github.io/" class="sites-navigation-link topLevel" target="_blank">Github Projects</a></div></li></ul></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/daniel-azuma.com/blog/articles/talks/railsconf-2013">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Articles", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://gsite.daniel-azuma.com/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          if (webspace.features.siteNotice) {
+            JOT_setupNoticeManager();
+          }
+        </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var s=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:s};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(t){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d3f591/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"","baseUri":"","name":"blog","domain":"daniel-azuma.com","features":{"horizontalNavLayout":true,"asyncPermanentDelete":false,"ritzSupport":true,"folderEmbed":true,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":true,"analyticsTrackingForCorp":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"helpBox":true,"siteNotice":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"ritzChartSupport":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"plusPost":true,"photoAlbumsGPlusUrlSupport":true,"siteChromeHeaderDialog":true,"fileCabinetOptions":true,"sitesLoveFixes":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Daniel Azuma","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":false,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:2215c067d09b656d","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:63933589a24d6669","revision":10,"title":"Part 3","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"part-3","path":"/articles/georails/part-3","isSiteRtlLocale":false,"parentPath":"/articles/georails"};
+webspace.page.breadcrumbs = [{"title":"Articles","dir":"ltr","path":"/articles","deleted":false},{"title":"GeoRails","dir":"ltr","path":"/articles/georails","deleted":false},{"title":"Part 3","dir":"ltr","path":"/articles/georails/part-3","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d3f591/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/trogedit.css',
+    '/_/rsrc/1399440112000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codeeditor.css',
+    '/_/rsrc/1399440112000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d3f591/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Part 3 - Daniel Azuma" />
+<meta itemprop="name" content="Part 3 - Daniel Azuma" />
+<meta property="og:title" content="Part 3 - Daniel Azuma" />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Limelight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Limelight'), url('//themes.googleusercontent.com/static/fonts/limelight/v5/kD_2YDkzv1rorNqQ2oFK5qCWcynf_cDxXwCLxiixG1c.ttf') format('truetype');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d3f591/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/overlay.css?cb=simple20a960px158210goog-ws-nav-rightnone30topstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Part 3 - Daniel Azuma</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5678/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="sites-chrome-header-valign-top" style="height: 158px"><div class="sites-header-cell-buffer-wrapper"><h2></h2></div></td><td class="sites-layout-searchbox sites-chrome-header-valign-top"><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-tabs"><li class="unselected"><a class="sites-navigation-link unselected" href="/updates">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/contact">Contact</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+<A dir="ltr" href="/articles">Articles</A>‎ &gt; ‎<A dir="ltr" href="/articles/georails">GeoRails</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr">Part 3</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><h1><a name="TOC-Geo-Rails-Part-3:-Spatial-Data-Types-with-RGeo"></a>Geo-Rails Part 3: Spatial Data Types with RGeo</h1>
+<p><em>Originally published Dec 5, 2011</em></p>
+<p>
+<a href="http://dazuma.github.io/rgeo" target="_blank" title="RGeo">RGeo</a> is a library and framework for handling spatial data in a Ruby application. It's currently designed more for completeness than ease of use, so there's a bit of an initial learning curve. This article is an attempt to smooth that learning curve a bit. It contains a tutorial introduction to RGeo, covering the basics that every RGeo user needs to know, and a bit of discussion of where the library came from. Included is:
+</p>
+<ul>
+<li>An introduction to the industry standard spatial data types</li>
+<li>Working with spatial data objects in RGeo</li>
+<li>Factories: why RGeo uses them and what they're for</li>
+<li>A comparison with GeoRuby</li>
+<li>A guide to the RDocs</li>
+</ul>
+<p>
+RGeo includes a number of advanced features which I'll cover in future articles. But for now, I think these are the important topics that will get you started.
+</p>
+<p>
+This is part 3 of my series of articles on geospatial programming in Ruby and Rails. For a list of the other installments, please visit <a href="http://daniel-azuma.com/artciles/georails" target="_blank" title="Geo-Rails article series">http://daniel-azuma.com/articles/georails</a>.
+</p>
+<h2><a name="TOC-Standard-Spatial-Data-Types"></a>Standard Spatial Data Types</h2>
+<p>
+Most serious geospatial systems operate on a standard set of spatial data types specified by a standard known as the <a href="http://www.opengeospatial.org/standards/sfa" target="_blank" title="SFA Spec">Simple Feature Access Specification</a>, which is maintained by the <a href="http://www.opengeospatial.org/" target="_blank" title="OGC">Open Geospatial Consortium</a>. This spec (which I'll abbreviate SFS) defines a suite of seven concrete data types capable of representing points and piecewise linear objects in two-dimensional space, along with a set of standard operations that can be performed on them.
+</p>
+<p>
+The SFS has gone through several iterations. Most current production systems are based on version 1.1 of the SFS, although newer versions have added a few more data subtypes. Since 1.1 is the most commonly supported revision, it is what RGeo implements and what I will cover here.
+</p>
+<p>
+The seven data types defined by the SFS include three geometric types, and four collection types. They are as follows.
+</p>
+<p>
+<strong>Point</strong>. This is a simple point in two-dimensional space, identified by an x and y coordinate. Often, Points are used to represent locations on the surface of the earth, and sometimes (but not always) the x and y coordinate are interpreted as longitude and latitude, respectively. In other cases, a Point could simply represent a point on the X-Y plane.
+</p>
+<p>
+<strong>LineString</strong>. This is a set of one or more straight line segments connected end to end. A common use for a LineString might be a set of driving directions. LineStrings may be self-intersecting, and some special LineStrings may be closed loops where the start point is the same as the end point. Below are a few examples of LineStrings. (I lifted this diagram straight out of the SFS document.)
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391965556403/articles/georails/part-3/georails-3-spec-linestrings.png" />
+</p>
+<p>
+<strong>Polygon</strong>. This is a continguous area in the plane, with piecewise linear borders. Polygons can also have holes. A common use for a Polygon might be a city or country boundary. Below are a few examples of Polygons (again lifted out of the SFS document.)
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391966106157/articles/georails/part-3/georails-3-spec-polygons.png" />
+</p>
+<p>
+For each of the above three types, there is a corresponding collection type that can represent zero or more of that type of object. So <strong>MultiPoint</strong> may include zero or more Points, <strong>MultiLineString</strong> may include zero or more separate LineStrings, and <strong>MultiPolygon</strong> may include zero or more nonoverlapping Polygons.
+</p>
+<p>
+Finally, there is a generic <strong>GeometryCollection</strong> type that may contain zero or more of any type of object, without any restrictions.
+</p>
+<p>
+The SFS arranges these spatial types in a class hierarchy. A number of operations (such as intersection and distance) are defined across all types, but a few (such as area) are specific to certain types. The operations defined in such a way as to make them more or less language-agnostic. RGeo, at its heart, can be thought of as a Ruby implementation of these SFS types.
+</p>
+<h2><a name="TOC-Working-with-Spatial-Data-in-RGeo"></a>Working with Spatial Data in RGeo</h2>
+<p>
+Now we'll go through some basic examples of handling spatial data in RGeo. This assumes you have RGeo installed along with Geos and Proj4. Please refer to <a href="http://daniel-azuma.com/articles/georails/part-1" target="_blank">part 1</a> (as well as the RGeo <a href="http://dazuma.github.io/rgeo/rdoc/" target="_blank">README</a>) for instructions on installing RGeo if you are having difficulty.
+</p>
+<p>
+In these examples, we'll work with simple planar data. RGeo refers to planar data as "Cartesian", and provides a factory object for creating planar objects.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">factory = RGeo::Cartesian.factory</pre>
+<p>
+Factories are discussed in more detail below; for now, you simply create spatial data objects using the factory. Let's create some <em>Points</em>:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">point1 = factory.point(1, 0)
+point2 = factory.point(1, 4)
+point3 = factory.point(-2, 0)
+point4 = factory.point(-2, 4)</pre>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391966117923/articles/georails/part-3/georails-3-example-points.png" />
+<br />
+<em>Four points plotted on the X-Y plane</em>
+</p>
+<p>
+You can extract the coordinates of a point.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">point1.x # =&gt; 1.0
+point1.y # =&gt; 0.0</pre>
+<p>
+As well as perform a rich set of spatial operations. Distance is a pretty common operation:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">point2.distance(point3) # =&gt; 5.0</pre>
+<p>
+Create <em>LineString</em> objects by providing a series of points, indicating the endpoints of the LineString. This first example has two segments specified using three points:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">line_string1 = factory.line_string([point1, point2, point3])</pre>
+<p>
+You can extract the individual points that make up the LineString.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">line_string1.num_points # =&gt; 3
+line_string1.point_n(0) == point1 # =&gt; true
+line_string1.end_point == point3 # =&gt; true</pre>
+<p>
+Here we create a new LineString and determine whether the two LineStrings intersect:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">point5 = factory.point(0, 1)
+line_string2 = factory.line_string([point4, point5])
+line_string1.intersects(line_string2) # =&gt; true</pre>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391966129940/articles/georails/part-3/georails-3-example-linestrings.png" />
+<br />
+<em>LineString 2, in green, intersects LineString 1, in blue.</em>
+</p>
+<p>
+To create a <em>Polygon</em> object, provide the boundary as a LineString.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">large_triangle = factory.polygon(line_string1)</pre>
+<p>
+To create a polygon with holes, provide the boundaries of the holes in the optional second argument.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">point6 = factory.point(0, 2)
+point7 = factory.point(-1, 1)
+line_string3 = factory.line_string([point5, point6, point7])
+triangle_with_hole = factory.polygon(line_string1, [line_string3])</pre>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391966139026/articles/georails/part-3/georails-3-example-polygons.png" />
+<br />
+<em>The polygon triangle_with_hole</em>
+</p>
+<p>
+You can also create that triangle with a hole using a spatial operation, by subtracting the small triangle from the larger one.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">small_triangle = factory.polygon(line_string3)
+triangle_with_hole = large_triangle - small_triangle</pre>
+<p>
+To create a collection, provide the elements as an enumeration. <em>MultiPoint</em>, <em>MultiLineString</em>, and <em>MultiPolygon</em> restrict the types of their elements; <em>GeometryCollection</em> has no restriction.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">four_points = factory.multi_point([point1, point2, point3, point4])
+general_collection = factory.collection([line_string1, point5])</pre>
+<p>
+In addition to the basic spatial operations, collections implement Enumerable:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">four_points.each{ |p| ... }</pre>
+<p>
+There's a lot of depth in the SFS spatial classes and the operations and analysis you can perform on them. I'll cover more advanced topics in a later articles. But first, we should address a burning question.
+</p>
+<h2><a name="TOC-RGeo-Factories"></a>RGeo Factories</h2>
+<p>
+In the example above, we created geometric objects using a factory. Now, for some of us with a Java background, this might conjure up some less-than-pleasant memories. Factories? How un-Ruby-like!
+</p>
+<p>
+I must admit, I struggled with this while designing RGeo. But in the end, in RGeo's case, I decided they were appropriate. (Or at least a necessary evil.)
+</p>
+<p>
+In the above examples, we were working with points on the Cartesian X-Y plane. The geometric objects we worked with follow the rules of Euclidean geometry that you're probably familiar with from high school mathematics classes. The distance between two points, for example, can be determined using the <a href="http://en.wikipedia.org/wiki/Pythagorean_theorem" target="_blank">Pythagorean Theorem</a>.
+</p>
+<p>
+However, we're not always going to be handling Cartesian objects, especially when we're working with location data. Location is generally measured across the surface of the earth, and the surface of the earth is not flat. This means our familiar theorems and formulas for Euclidean geometry may not work, especially for objects covering large areas.
+</p>
+<p>
+So when RGeo measures a distance, computes an intersection, or performs almost any kind of spatial operation, it needs to know the context: whether you're working with points on an X-Y plane, or a latitude-longitude. And even in the latter case, it actually needs to know <em>which</em> latitude-longitude, since there are in fact a number of different ways to define latitude and longitude.
+</p>
+<p>
+A factory provides this context. It knows whether the coordinate system is an X-Y Cartesian coordinate system, or whether it is latitude and longitude, or something else. It is basically a set of preferences directing how RGeo handles data and performs computations. All the spatial objects created by a factory inherit its preferences.
+</p>
+<p>
+Or here's another way to put it. A point may have coordinates (2, 3). The factory tells you what the "2" and the "3" actually <em>mean</em> and how they relate to the real world. Are they degrees, feet, or light years? Which direction are they? And what assumptions about the nature of reality do they imply?
+</p>
+<p>
+Another aspect controlled by RGeo's factories is the implementation. When RGeo works with Cartesian coordinates, its factory calls into the Geos library to handle most of the computational geometry. However, sometimes Geos may not be available on your system. In this case, you can use a different factory that also computes Cartesian geometry but uses a pure Ruby implementation. This alternate factory is not as fast as Geos and is currently missing a number of capabilities, but it is available in case you cannot install Geos.
+</p>
+<p>
+You can obtain the factory object providing the context for any geographic object by calling its "factory" method.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">triangle_with_hole.factory # =&gt; factory</pre>
+<p>
+Generally, when you cause two objects to interact by comparing them or performing some binary operation on them, they must have the same factory and live in the same context. It makes sense to find the distance between two points -- say, (2, 3) and (4, 5) -- on the Cartesian X-Y plane, but it doesn't make sense to find the "distance" between the point (2, 3) on the X-Y plane, and the point at latitude 47.606, longitude -122.332.
+</p>
+<p>
+I will say more about coordinate systems and the different factories available in RGeo in later articles. For now, two factories you will probably use often are the Cartesian factory we saw above; and the "spherical" geographic factory. This latter factory handles latitudes and longitudes, and supports basic spatial operations but is currently missing some of the more complex operations.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">geographic_factory = RGeo::Geographic.spherical_factory</pre>
+<h2><a name="TOC-RGeo-Factories-and-Rails"></a>RGeo Factories and Rails</h2>
+<p>
+In <a href="http://daniel-azuma.com/articles/georails/part-2" target="_blank" title="Geo-Rails part 2">part 2</a> of this series, we saw that <code>activerecord-postgis-adapter</code> exposes spatial column values as RGeo objects. Each of these objects, of course, has a factory that provides its coordinate system and context. Now we can look a little more closely at this process.
+</p>
+<p>
+In the tutorial for part 2, we added this line to the Location model:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">class Location &lt; ActiveRecord::Base
+  set_rgeo_factory_for_column(:latlon,
+    RGeo::Geographic.spherical_factory(:srid =&gt; 4326))
+end</pre>
+<p>
+What this does is provide a specific factory for the latlon attribute of the Location model. In this case, we use the spherical geographic factory discussed above. When you get a Location from the database and read the latlon attribute, it returns a Point created by that factory. The "srid" argument controls the Spatial Reference ID, which must be set to 4326 for the PostGIS geographic type. We will cover SRIDs in a later article; for now, just think of it as a required parameter.
+</p>
+<p>
+You can ask the model for the factory as follows:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">latlon_factory = Location.rgeo_factory_for_column(:latlon)</pre>
+<p>
+Now you can use this factory to create values. In particular, if you do not want to use WKT to set a latlon value, you can set it directly from a point object created from this factory.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">loc3 = Location.create(:name =&gt; 'Columbia Tower')
+loc3.latlon = latlon_factory.point(-122.330779, 47.604828)
+loc3.save</pre>
+<h2><a name="TOC-RGeo-vs.-GeoRuby"></a>RGeo vs. GeoRuby</h2>
+<p>
+One question I am asked quite a bit is, how does RGeo compare with <a href="http://georuby.rubyforge.org/" target="_blank" title="GeoRuby">GeoRuby</a>. GeoRuby is an older Ruby library that provides classes for the SFS geometry objects. It is considerably smaller than RGeo, and somewhat easier to get started with. Indeed, I also started off using GeoRuby once upon a time, but I quickly decided that a fundamental redesign was necessary in order to support the functionality I needed. Among those:
+</p>
+<ul>
+<li>GeoRuby provides a small subset of the spatial operations defined by the SFS. For example, it computes distance between points but not distances involving lines or polygons, and it doesn't do intersections or other such geometric operations. RGeo implements the entire SFS -- every single operation. To accomplish this, it uses Geos, the same industry standard computational geometry library that PostGIS uses internally, so you can be confident of its speed and stability.</li>
+<li>GeoRuby assumes most objects are in a flat Cartesian coordinate system; it generally does not handle different coordinate systems. The sole exception is that it provides specialized methods to measure distance across the globe, but they require that you keep track of the coordinate system yourself. RGeo automatically ensures that computations take place in the right coordinate system, and provides rich tools for managing and converting coordinate systems.</li>
+<li>The original GeoRuby project has not been updated for a long time. There is a recent <a href="http://github.com/nofxx/georuby" target="_blank" title="Nofxx fork of GeoRuby">fork</a> that is being maintained somewhat more actively. But even the fork doesn't look like it is likely to have the basic capabilities many non-trivial applications require, at least not anytime soon.</li>
+</ul>
+<p>
+That said, some of the early inspiration for RGeo did come from GeoRuby. Although RGeo's design is markedly different, it was created to solve some of the same basic problems and so is something of a spiritual descendant.
+</p>
+<h2><a name="TOC-RGeo-Documentation"></a>RGeo Documentation</h2>
+<p>
+One thing missing right now with RGeo is a really good tutorial and/or user's guide. However, the RDocs are fairly extensive and should often provide you with enough information to get started.
+</p>
+<p>
+Most of the APIs that you will work with are documented as modules within the <a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature.html" target="_blank">RGeo::Feature</a> namespace. Factories should follow the API defined by <a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Factory.html" target="_blank">RGeo::Feature::Factory</a>, which specifies a method for constructing each type of spatial object. Each object type, in turn, has its own corresponding interface -- for example, <a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Point.html" target="_blank">RGeo::Feature::Point</a> defines the interface for point objects. All these interfaces inherit from the base interface <a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Geometry.html" target="_blank">RGeo::Feature::Geometry</a>, which defines methods common to all spatial objects.
+</p>
+<p>
+One important thing to note is that the interface modules in RGeo::Feature may not necessarily be included in the objects themselves. That is, it is not necessarily true that:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">point1.is_a?(RGeo::Feature::Point) # may not be true
+factory.is_a?(RGeo::Feature::Factory) # also may not be true</pre>
+<p>
+However, the objects will still "duck-type" (that is, implement the same methods as) the interface modules, so to find documentation on a particular object, you need only look at the RDocs for the relevant interface modules.
+</p>
+<p>
+Here's a map of the important interfaces. First, the factory interface:
+</p>
+<ul>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Factory.html" target="_blank">RGeo::Feature::Factory</a></li>
+</ul>
+<p>
+Next, the interfaces corresponding to the types and subtypes defined by the SFS:
+</p>
+<ul>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Geometry.html" target="_blank">RGeo::Feature::Geometry</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Point.html" target="_blank">RGeo::Feature::Point</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Curve.html" target="_blank">RGeo::Feature::Curve</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/LineString.html" target="_blank">RGeo::Feature::LineString</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Line.html" target="_blank">RGeo::Feature::Line</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/LinearRing.html" target="_blank">RGeo::Feature::LinearRing</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Surface.html" target="_blank">RGeo::Feature::Surface</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/Polygon.html" target="_blank">RGeo::Feature::Polygon</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/GeometryCollection.html" target="_blank">RGeo::Feature::GeometryCollection</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/MultiPoint.html" target="_blank">RGeo::Feature::MultiPoint</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/MultiCurve.html" target="_blank">RGeo::Feature::MultiCurve</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/MultiLineString.html" target="_blank">RGeo::Feature::MultiLineString</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/MultiSurface.html" target="_blank">RGeo::Feature::MultiSurface</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Feature/MultiPolygon.html" target="_blank">RGeo::Feature::MultiPolygon</a></li>
+</ul>
+<p>
+How do you create a factory in the first place? For the most part, you will use class methods provided for this purpose. These modules will contain methods for getting factories:
+</p>
+<ul>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Cartesian.html" target="_blank">RGeo::Cartesian</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Geos.html" target="_blank">RGeo::Geos</a></li>
+<li><a href="http://dazuma.github.io/rgeo/rdoc/RGeo/Geographic.html" target="_blank">RGeo::Geographic</a></li>
+</ul>
+<h2><a name="TOC-Where-to-go-from-here"></a>Where to go from here</h2>
+<p>
+We have taken a whirlwind tour of the basic features of RGeo. RGeo provides a deep set of tools, and at this point you should have enough background to do some pretty interesting geospatial analysis.
+</p>
+<p>
+In addition to the RDocs for RGeo, I think the actual Simple Features Spec is essential background reading. It's quite accessible and provides a useful overview of the data types and computations available.
+</p>
+<p>
+The next topic for this series is likely to be an introduction to coordinate systems and projections. Stay tuned!
+</p>
+<p>
+<em>This is part 3 of my series of articles on geospatial programming in Ruby and Rails. For a list of the other installments, please visit <a href="http://daniel-azuma.com/articles/georails" target="_blank" title="Geo-Rails article series">http://daniel-azuma.com/articles/georails</a>.</em>
+</p></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+</div>
+</div> 
+</td> 
+<td id="sites-chrome-sidebar-right" class="sites-layout-sidebar-right" style="width:210px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_20715116360224783" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1392135198793/updates/mug_small.jpg" />
+</p>
+<p style="text-align:center">
+Daniel Azuma is a software engineer in the Seattle area.</p></div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed"><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:77f758e02286adc5"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/articles" jotId="wuid:gx:77f758e02286adc5" class="sites-navigation-link topLevel">Articles</a></div><ul class="has-expander"><li class="parent " wuid="gx:63933589a24d6669"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/georails" jotId="wuid:gx:63933589a24d6669" class="sites-navigation-link">GeoRails</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-1" jotId="wuid:gx:21263add3704d85a" class="sites-navigation-link">Part 1</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-2" jotId="wuid:gx:583b2472f184df59" class="sites-navigation-link">Part 2</a></div></li><li class=""><div class="current-bg" jotId="wuid:gx:2215c067d09b656d" dir="ltr" style="padding-left: 57px;">Part 3</div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-4" jotId="wuid:gx:736c4f9a4a910dc3" class="sites-navigation-link">Part 4</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-5" jotId="wuid:gx:71e83b60478e8b52" class="sites-navigation-link">Part 5</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-6" jotId="wuid:gx:7c72159f0815753d" class="sites-navigation-link">Part 6</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-7" jotId="wuid:gx:538f6eeef4c76cfc" class="sites-navigation-link">Part 7</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-8" jotId="wuid:gx:7417ef859fc351a7" class="sites-navigation-link">Part 8</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-9" jotId="wuid:gx:4fae9206819b4a64" class="sites-navigation-link">Part 9</a></div></li></ul></li><li class="parent closed " wuid="gx:77f18de4f94a3c47"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/talks" jotId="wuid:gx:77f18de4f94a3c47" class="sites-navigation-link">Talks</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2012" jotId="wuid:gx:6a4476d67668a24a" class="sites-navigation-link">Geospatial Analysis With Rails (RailsConf 2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2013" jotId="wuid:gx:53413222cba48516" class="sites-navigation-link">Humanity on Rails (RailsConf 2013)</a></div></li></ul></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="http://dazuma.github.io/" class="sites-navigation-link topLevel" target="_blank">Github Projects</a></div></li></ul></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/daniel-azuma.com/blog/articles/georails/part-3">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Articles", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://gsite.daniel-azuma.com/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          if (webspace.features.siteNotice) {
+            JOT_setupNoticeManager();
+          }
+        </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

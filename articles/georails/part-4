@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var s=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:s};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(t){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d3f591/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"","baseUri":"","name":"blog","domain":"daniel-azuma.com","features":{"horizontalNavLayout":true,"asyncPermanentDelete":false,"ritzSupport":true,"folderEmbed":true,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":true,"analyticsTrackingForCorp":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"helpBox":true,"siteNotice":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"ritzChartSupport":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"plusPost":true,"photoAlbumsGPlusUrlSupport":true,"siteChromeHeaderDialog":true,"fileCabinetOptions":true,"sitesLoveFixes":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Daniel Azuma","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":false,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:736c4f9a4a910dc3","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:63933589a24d6669","revision":7,"title":"Part 4","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"part-4","path":"/articles/georails/part-4","isSiteRtlLocale":false,"parentPath":"/articles/georails"};
+webspace.page.breadcrumbs = [{"title":"Articles","dir":"ltr","path":"/articles","deleted":false},{"title":"GeoRails","dir":"ltr","path":"/articles/georails","deleted":false},{"title":"Part 4","dir":"ltr","path":"/articles/georails/part-4","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d3f591/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/trogedit.css',
+    '/_/rsrc/1399440112000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/codeeditor.css',
+    '/_/rsrc/1399440112000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d3f591/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d3f591/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Part 4 - Daniel Azuma" />
+<meta itemprop="name" content="Part 4 - Daniel Azuma" />
+<meta property="og:title" content="Part 4 - Daniel Azuma" />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Limelight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Limelight'), url('//themes.googleusercontent.com/static/fonts/limelight/v5/kD_2YDkzv1rorNqQ2oFK5qCWcynf_cDxXwCLxiixG1c.ttf') format('truetype');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d3f591/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/overlay.css?cb=simple20a960px158210goog-ws-nav-rightnone30topstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1399440112000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Part 4 - Daniel Azuma</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5678/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="sites-chrome-header-valign-top" style="height: 158px"><div class="sites-header-cell-buffer-wrapper"><h2></h2></div></td><td class="sites-layout-searchbox sites-chrome-header-valign-top"><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-tabs"><li class="unselected"><a class="sites-navigation-link unselected" href="/updates">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/contact">Contact</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+<A dir="ltr" href="/articles">Articles</A>‎ &gt; ‎<A dir="ltr" href="/articles/georails">GeoRails</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr">Part 4</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><h1><a name="TOC-Geo-Rails-Part-4:-Coordinate-Systems-and-Projections"></a>Geo-Rails Part 4: Coordinate Systems and Projections</h1>
+<p><em>Originally published Dec 12, 2011</em></p>
+<p>
+When people speak of a learning curve in geospatial programming, they're usually referring to handling coordinate systems. It's true that many spatial applications require close attention to the coordinate system, and it's true that there are some difficult concepts involved. However, it's been my experience that once the light bulb turns on, it opens up a lot of the power and potential of geodata.
+</p>
+<p>
+In this article, we'll take a first look at coordinate systems and geographic projections. We will:
+</p>
+<ul>
+<li>Examine the importance and effect of coordinate system differences</li>
+<li>Survey the various coordinate systems used for geospatial data</li>
+<li>Become familiar with coordinate system representations and SRIDs</li>
+<li>Specify coordinate systems in RGeo factories</li>
+<li>Use RGeo to convert data between coordinate systems</li>
+<li>Learn how to handle coordinate systems in Rails</li>
+</ul>
+<p>
+This is part 4 of my continuing series of articles on geospatial programming in Ruby and Rails. For a list of the other installments, please visit <a href="http://daniel-azuma.com/articles/georails" target="_blank" title="Geo-Rails article series">http://daniel-azuma.com/articles/georails</a>.
+</p>
+<h2><a name="TOC-Why-coordinate-systems-are-important:-a-cautionary-fable"></a>Why coordinate systems are important: a cautionary fable</h2>
+<p>
+Once upon a time, a plane took off from San Francisco, California on a routine flight to Athens, Greece. The captain, being both valiant and diligent with his passengers' safety, sent a Twitter message to air traffic control. He wanted to ensure that his flight route would not be disrupted, for he had read on Hacker News that the diabolical EvilVolcano in Iceland was erupting, sending a deadly ash cloud high into the air lanes.
+</p>
+<p>
+Meanwhile, an air traffic technician, having just finished installing a brand new Rails-based flight planning application, received the tweet. "<code>@air_traffic_control pls chk flt path SFO-ATH. Far enuf fr #EvilVolcano?</code>"
+</p>
+<p>
+Excited to use his new tool, the technician got busy with his analysis. He looked up the latitude-longitude coordinates of San Francisco and Athens, and plotted a straight line between them, using Google Maps to verify that his path looked correct. Then he looked up the latitude-longitude coordinates of the diabolical EvilVolcano, and calculated the distance between it and the plane's expected path.
+</p>
+<p>
+"Lo!" he exclaimed. "Surely the flight path shall follow a straight line between two points, right along the 38-degree latitude line. But look-- Iceland is nowhere near that path. The safety of our valiant pilot is assured!"
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391968827605/articles/georails/part-4/wrong_path.png" />
+<br />
+<em>The flight path as seen by the air traffic technician</em>
+</p>
+<p>
+The technician proudly tweeted back his findings: "<code>@valiant_pilot Flt path safe dist fr #EvilVolcano. Have pleasant journey.</code>"
+</p>
+<p>
+Having received this response on Twitter, the pilot proceeded to take off on his planned route. The last tweet received from the ill-fated flight, some seven hours later, read as follows: "<code>Oceanic Air flt 815 encountering ash #SmokeMonster from #EvilVolcano. #Mayday #Mayday</code>". And the rest is history.
+</p>
+<p>
+What went wrong?
+</p>
+<p>
+For the most part, the air traffic technician did the right thing. He looked up the latitude-longitude coordinates of the departure and arrival cities, drew a straight line path between them, and then computed the distance bewteen that path and the EvilVolcano in Iceland. That is, he computed:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">Distance(LineString(-122.4 37.8, 23.7 37.9), Point(-19.6 63.6))</pre>
+<p>
+However, he missed one thing. The shape of a "straight" line drawn between two points, and thus the distance calculated, may be vastly different depending on what coordinate system you are using, even though the latitude and longitude coordinates are the same!
+</p>
+<p>
+Google Maps uses a <em>Mercator Projection</em> to display a world map. In this flat coordinate system, a straight line between San Francisco and Athens follows the 38-degree latitude line, passing through muggy Virginia and sunny southern Spain on its way to balmy (albeit bankrupt) Athens.
+</p>
+<p>
+But the earth itself is not flat. Using a spherical coordinate system, the straight line shortest path between the two cities across the surface of the globe passes further north, directly over chilly and volcano-infested Iceland. This is the actual flight path of the ill-fated valiant pilot.
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391968838770/articles/georails/part-4/actual_path.png" />
+<br />
+<em>The actual shortest straight-line path from San Francisco to Athens</em>
+</p>
+<p>
+Simply by using the wrong coordinate system, the air traffic technician got a grossly innacurate answer, resulting in dozens of innocent passengers becoming instant prime-time celebrities.
+</p>
+<h2><a name="TOC-Coordinate-systems-for-geo-data"></a>Coordinate systems for geo data</h2>
+<p>
+At a basic level, a coordinate system can be thought of as providing "meaning" to a set of coordinates. When you see the location "<code>Point(-19.6 63.6)</code>", how do you interpret those numbers? They could be the latitude and longitude of the Iceland volcano, but they could equally be measurements in feet from your front door, or light years from Alpha Centauri. The coordinate system is what differentiates these cases.
+</p>
+<p>
+Location applications generally work with coordinate systems related to the earth's surface, and these coordinate systems fall into three types.
+</p>
+<p>
+<strong>Geocentric</strong> coordinate systems are three-dimensional coordinate systems with the origin located at the earth's center. You won't generally see much data in a geocentric coordinate system, but it is sometimes a convenient coordinate system to use for computational geometry and analysis algorithms.
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391968849357/articles/georails/part-4/geocentric.png" />
+<br />
+<em>Geocentric coordinates measure X, Y, and Z distances from the center of the earth. (Credit: http://kartoweb.itc.nl/geometrics/Coordinate%20systems/coordsys.html)</em>
+</p>
+<p>
+<strong>Geographic</strong> coordinate systems are the familiar latitude-longitude systems identifying points on the earth's surface in terms of degrees. The most common geographic coordinate system, the one used by GPS and expected by most mapping applications, is known as "<em>WGS 84</em>".
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391968856157/articles/georails/part-4/geographic.png" />
+<br />
+<em>Geographic coordinates measure our familiar latitude and longitude. (Credit: http://kartoweb.itc.nl/geometrics/Coordinate%20systems/coordsys.html)</em>
+</p>
+<p>
+<strong>Projected</strong> coordinate systems involve taking a portion of the earth's surface and "flattening" it. These coordinate systems are planar and generally Cartesian for easy display and computation; however, they introduce various kinds and amounts of distortion. Whenever you see a map displayed on a piece of paper, a computer screen, or other flat medium (basically anything other than a globe), you are looking at a projection.
+</p>
+<p>
+There are hundreds of different projections in use, from common projections used for world maps, to special-purpose projections used for specific regions. When you view a Google Map, you are looking at a <em>Mercator Projection</em>. This is a projection designed to preserve shapes and straight-line directions, at the expense of distorting sizes and distances away from the Equator. A Google Map, for instance, implies that Greenland is larger than Africa, when in fact it is much, much smaller.
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391968863630/articles/georails/part-4/google_world.png" />
+<br />
+<em>Google Maps uses a Mercator Projection</em>
+</p>
+<p>
+The United Nations logo includes a <em>polar projection</em> putting the north pole at the center. In this projection the pole is the least distorted region of the world, and everything else revolves around it, symbolizing the ideal of a world community privileging no particular country (except possibly the northern hemisphere, but we'll ignore the politics for our purposes...)
+</p>
+<p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1391968871798/articles/georails/part-4/un_logo.png" />
+<br />
+<em>The United Nations logo includes a north polar projection</em>
+</p>
+<p>
+Finally, whenever you look at a folding map-- whether a street map for a city, a state map, or any other map that shows a limited area-- you are usually looking at a <em>local projection</em>, one specifically tailored to that particular limited area. Such projections define a particular area in which they make sense. Objects inside that boundary can usually be displayed with minimal distortion, while objects outside that boundary often cannot be described at all.
+</p>
+<h2><a name="TOC-Representing-and-specifying-coordinate-systems"></a>Representing and specifying coordinate systems</h2>
+<p>
+Whenever you receive location data-- whether from geocoding, user input, an external database, or any other source-- the data should come with a coordinate system. Currently, there are two common ways a coordinate system can be defined:
+</p>
+<p>
+<strong>Proj4 Syntax</strong>. One common way to specify a coordinate system is through a syntax defined by the <a href="http://proj.osgeo.org/" target="_blank" title="Proj">Proj</a> library. We won't go into detail on the syntax here, but it is intended to describe how to convert data to and from that coordinate system. That is, if you receive data in a projected coordinate system, if you have the Proj4 syntax for that projection, the Proj library can convert the data back into latitude and longitude, and vice versa. Because of this useful property, Proj4 syntax is quite ubiquitous. Below is an example of the Proj4 syntax for "NAD83 / Washington North", a local projection commonly used for topgraphic mapping in northern Washington state. For now, don't worry if you don't understand every field. This is just an example so that you can recognize Proj4 syntax when you see it.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">+proj=lcc +lat_1=48.73333333333333 +lat_2=47.5 +lat_0=47
+  +lon_0=-120.8333333333333 +x_0=500000.0001016001 +y_0=0
+  +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs</pre>
+<p>
+<strong>OGC well-known-text</strong> (or <strong>WKT</strong>). The <a href="http://www.opengeospatial.org/" target="_blank" title="OGC">Open Geospatial Consortium</a>, the standards body that developed the <a href="http://www.opengeospatial.org/standards/sfa" target="_blank" title="OGC simple features spec">Simple Feature Access</a> specification described in <a href="http://daniel-azuma.com/articles/georails/part-3" target="_blank" title="Geo-Rails part 3">part 3</a>, also developed a syntax for representing <a href="http://www.opengeospatial.org/standards/ct" target="_blank" title="OGC coordinate transformation spec">coordinate systems and transformations</a>. Below is the well-known-text for "NAD83 / Washington North". Again, for now you don't need to understand every field here, but you should be able to recognize WKT format when you see it.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">PROJCS["NAD83 / Washington North (ftUS)",
+  GEOGCS["NAD83",
+    DATUM["North_American_Datum_1983",
+      SPHEROID["GRS 1980",6378137,298.257222101,
+        AUTHORITY["EPSG","7019"]],
+      AUTHORITY["EPSG","6269"]],
+    PRIMEM["Greenwich",0,
+      AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.01745329251994328,
+      AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4269"]],
+  UNIT["US survey foot",0.3048006096012192,
+    AUTHORITY["EPSG","9003"]],
+  PROJECTION["Lambert_Conformal_Conic_2SP"],
+  PARAMETER["standard_parallel_1",48.73333333333333],
+  PARAMETER["standard_parallel_2",47.5],
+  PARAMETER["latitude_of_origin",47],
+  PARAMETER["central_meridian",-120.8333333333333],
+  PARAMETER["false_easting",1640416.667],
+  PARAMETER["false_northing",0],
+  AUTHORITY["EPSG","2285"],
+  AXIS["X",EAST],
+  AXIS["Y",NORTH]]</pre>
+<p>
+As we saw above, each piece of geometry needs a corresponding coordinate system in order to specify the meaning of its coordinates and thus how to handle its data. Instead of attaching an entire Proj4 or WKT formatted string to every latitude-longitude point in a system, most geospatial systems provide a database of coordinate systems, each identified by an ID known as the <em>Spatial Reference ID</em> (or <em>SRID</em>). Each geometric data object then includes an SRID field referencing an entry in that database.
+</p>
+<p>
+Technically, a geospatial system can provide its own spatial reference database and set its own SRIDs. However, in practice, many systems use a <em>de facto</em> standard dataset known as the <em>EPSG dataset</em>. This is a database of several thousand coordinate systems managed by the <a href="http://www.ogp.org.uk/" target="_blank" title="OGP">International Association of Oil &amp; Gas Producers</a>. The EPSG dataset is ubiquitous enough that most spatial database tools include a copy of it. A spatially-enabled <a href="http://www.postgis.org/" target="_blank" title="PostGIS">PostGIS</a> database, for example, automatically includes a table called <code>spatial_ref_sys</code> that is typically prepopulated with the EPSG dataset. You can look up SRIDs and get the coordinate system name, the WKT representation, and sometimes the Proj4 representation. The "NAD83 / Washington North" coordinate system example above has SRID 2285 in the EPSG database.
+</p>
+<p>
+One important EPSG-specified SRID that you will encounter often is 4326. 4326 refers to the "WGS 84" geographic (latitude-longitude) coordinate system we mentioned earlier-- the coordinate system used by Global Positioning System (GPS). Typically, when you get a latitude-longitude coordinate from a GPS system, from a geocoder, from a Google map input, or most other common sources, it will implicitly be in the EPSG 4326 coordinate system. This is so universally true that PostGIS currently mandates that the SRID must be set to 4326 when you create a column of type "geography" (that is, a latitude-longitude column), as we saw in <a href="http://daniel-azuma.com/articles/georails/part-2" target="_blank" title="Geo-Rails part 2">part 2</a>.
+</p>
+<p>
+You can browse the EPSG database at <a href="http://www.spatialreference.org/" target="_blank" title="spatialreference.org">http://www.spatialreference.org/</a>.
+</p>
+<h2><a name="TOC-Coordinate-systems-for-RGeo-factories"></a>Coordinate systems for RGeo factories</h2>
+<p>
+In <a href="http://daniel-azuma.com/articles/georails/part-3" target="_blank" title="Geo-Rails part 3">part 3</a>, we discussed how <a href="http://dazuma.github.io/rgeo" target="_blank" title="RGeo">RGeo</a> manages coordinate systems through factories. Now that we understand coordinate systems in more detail, we can take a closer look at how to handle coordinate systems in Ruby.
+</p>
+<p>
+RGeo supports two main types of factories: <em>Cartesian factories</em> and <em>geographic factories</em>. Cartesian factories are ideal for handling projected coordinate systems, in which the domain is flat. Geographic factories are useful for geographic coordinate systems representing latitude and longitude, in which the domain is curved like the surface of the earth.
+</p>
+<p>
+When you create an RGeo factory, you may specify the exact coordinate system by passing arguments to the factory constructor. In most cases, you should provide an SRID using the <code>:srid</code> parameter. You may also provide Proj4 and/or WKT representations for the coordinate system using the <code>:proj4</code> and <code>:coord_sys</code> parmeters, respectively. For example, here's how you could create a factory designed to handle the "NAD83 / Washington North" projection we discussed earlier.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">north_wa_proj4 = '+proj=lcc +lat_1=48.73333333333333 +lat_2=47.5 ' +
+  '+lat_0=47 +lon_0=-120.8333333333333 +x_0=500000.0001016001 ' +
+  '+y_0=0 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 ' +
+  '+no_defs'
+north_wa_wkt = &lt;&lt;WKT
+  PROJCS["NAD83 / Washington North (ftUS)",
+    GEOGCS["NAD83",
+      DATUM["North_American_Datum_1983",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+          AUTHORITY["EPSG","7019"]],
+        AUTHORITY["EPSG","6269"]],
+      PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+      UNIT["degree",0.01745329251994328,
+        AUTHORITY["EPSG","9122"]],
+      AUTHORITY["EPSG","4269"]],
+    UNIT["US survey foot",0.3048006096012192,
+      AUTHORITY["EPSG","9003"]],
+    PROJECTION["Lambert_Conformal_Conic_2SP"],
+    PARAMETER["standard_parallel_1",48.73333333333333],
+    PARAMETER["standard_parallel_2",47.5],
+    PARAMETER["latitude_of_origin",47],
+    PARAMETER["central_meridian",-120.8333333333333],
+    PARAMETER["false_easting",1640416.667],
+    PARAMETER["false_northing",0],
+    AUTHORITY["EPSG","2285"],
+    AXIS["X",EAST],
+    AXIS["Y",NORTH]]
+WKT
+north_wa_factory = RGeo::Cartesian.factory(:srid =&gt; 2285,
+  :proj4 =&gt; north_wa_proj4, :coord_sys =&gt; north_wa_wkt)</pre>
+<p>
+Notice that, since the coordinate system is a projection, we're using a Cartesian factory that will perform computations in a flat domain.
+</p>
+<p>
+When you work with a projected coordinate system like this one, the coordinates themselves are expressed in the projection rather than in latitude and longitude. For example, the location of the Space Needle in Seattle, which is at latitude 47.620578, longitude -122.34978, is expressed as <code>(1266457.58, 230052.50)</code> in this coordinate system.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">space_needle = north_wa_factory.point(1266457.58, 230052.50)</pre>
+<p>
+Let's consider another example. If you want to work with latitudes and longitudes, say from a GPS system, then you should use the "WGS 84" coordinate system, which has SRID 4326. Looking up this coordinate system in <a href="http://www.spatialreference.org/" target="_blank" title="Spatialreference.org">spatialreference.org</a>, we can find its Proj4 and WKT forms:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">wgs84_proj4 = '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs'
+wgs84_wkt = &lt;&lt;WKT
+  GEOGCS["WGS 84",
+    DATUM["WGS_1984",
+      SPHEROID["WGS 84",6378137,298.257223563,
+        AUTHORITY["EPSG","7030"]],
+      AUTHORITY["EPSG","6326"]],
+    PRIMEM["Greenwich",0,
+      AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.01745329251994328,
+      AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4326"]]
+WKT</pre>
+<p>
+To create a factory for this coordinate system, we should use one of the geographic factories provided by RGeo. These factories perform computations over a curved earth rather than a flat earth. For example, they will correctly draw the line between San Francisco and Athens so that it passes through Iceland. You can use <code>RGeo::Geographic.spherical_factory</code> to create a factory that performs computations on a spherical earth:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">wgs84_factory = RGeo::Geographic.spherical_factory(:srid =&gt; 4326,
+  :proj4 =&gt; wgs84_proj4, :coord_sys =&gt; wgs84_wkt)</pre>
+<p>
+We now have a factory that will correctly manage features using latitude/longitude.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">space_needle = wgs84_factory.point(-122.34978, 47.620578)</pre>
+<p>
+Technically, the earth is not a perfect sphere, but is slightly flattened. The WGS84 coordinate system actually uses a flattened ellipsoid to more closely model this shape. However, RGeo does not yet support ellipsoidal computations, so we used a spherical factory instead as an approximation. In many cases, this will be good enough, but if you need accuracy down to the millimeter, this is something to be aware of.
+</p>
+<h2><a name="TOC-Converting-data-between-coordinate-systems"></a>Converting data between coordinate systems</h2>
+<p>
+The above examples may have sparked an important question. In the examples in parts 2 and 3, we created factories without the benefit of the proj4 and wkt strings, and in some cases we also omitted the SRID. Under what circumstances are proj4, wkt, and/or SRID needed when you create an RGeo factory, and under what circumstances can you leave them out?
+</p>
+<p>
+SRID is generally needed when you want to store your data in a PostGIS database. This is because PostGIS generally puts an SRID constraint on spatial columns that you create, in order to make sure you don't mismatch coordinate systems. So, if you are storing data in or pulling data from PostGIS, you should always specify the SRID in the factory.
+</p>
+<p>
+The proj4 string has a different purpose: it is used by the Proj library to describe how to convert coordinates between coordinate systems. Here is how this works.
+</p>
+<p>
+Suppose you are reading a set of points from a data source that uses the "NAD83 / Washington North" coordinate system, and you wanted to convert them to latitude and longitude. To perform this conversion, you need two factories, one in the source coordinate system and one in the destination coordinate system. Both factories need to have their <code>:proj4</code> string set. This lets the Proj library understand both coordinate systems so it can figure out how to convert from one to the other.
+</p>
+<p>
+In the above examples when we created our <code>north_wa_factory</code> and <code>wgs84_factory</code>, we provided the needed proj4 strings. So these factories are ready to be used.
+</p>
+<p>
+Now, to actually convert the data, load it using the source factory, and then use RGeo's "cast" mechanism to cast it to the other factory. Call <code>RGeo::Feature.cast</code>, pass it the original object and the destination factory, and set the <code>:project</code> argument to true to tell it to transform coordinates.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">space_needle = north_wa_factory.point(1266457.58, 230052.50)
+space_needle_latlon = RGeo::Feature.cast(space_needle,
+  :factory =&gt; wgs84_factory, :project =&gt; true)</pre>
+<p>
+This code tells RGeo to take the <code>space_needle</code> object (which is in the projected coordinate system) and convert it to the WGS84 factory, while transforming (projecting) its coordinates so they are correct in the new factory's coordinate system. As a result, <code>space_needle_latlon</code> is created, containing latitude and longitude coordinates, and with its factory set to <code>wgs84_factory</code>.
+</p>
+<p>
+What about the WKT string? Currently, RGeo does not have any functional use for the WKT string; it is just an informational field. So you can omit it if you want. However, it turns out that in many cases you can theoretically use the WKT to transform coordinates in the same way as the Proj4 string. RGeo will likely provide this capability in the future-- you will be able to pass WKT instead of Proj4 to allow factories to transform coordinates.
+</p>
+<h2><a name="TOC-Using-Coordinate-Systems-in-Rails"></a>Using Coordinate Systems in Rails</h2>
+<p>
+In <a href="http://daniel-azuma.com/articles/georails/part-2" target="_blank" title="Geo-Rails part 2">part 2</a>, we looked at an example in which we created a PostGIS column that stored point data in geographic (latitude-longitude) coordinates. We did this by installing the activerecord-postgis-adapter, which extends ActiveRecord migrations to create spatial columns, and which exposes spatial attributes as RGeo data objects.
+</p>
+<p>
+Now let's consider another example. Suppose we obtained a set of polygons (say, zip code boundaries) from a data source that uses the "NAD83 / Washington North" projection. We could convert the polygons to latitude-longitude, but remember that doing so can actually change the shape of the polygon. So let's suppose we decided this was unacceptable, and we need to store the polygons in the database in the projected coordinate system. Here's the migration for this case:
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">class CreateZipCodes &lt; ActiveRecord::Migration
+  def change
+    create_table :zip_codes do |t|
+      t.integer :zip
+      t.polygon :boundary, :srid =&gt; 2285
+    end
+  end
+end</pre>
+<p>
+The name of our column is "<code>boundary</code>", and we set its type to "<code>polygon</code>". Now, in the example in part 2, we had set the <code>:geographic</code> property of the column, indicating that it was storing latitude and longitude and that it should use the PostGIS features designed for that case. In this new example, we are storing projected coordinates, so we do not set <code>:geographic</code>. Instead, we just set the SRID to match the coordinate system that we are using. Setting a SRID on the database column actually sets up a database constraint: it allows only geometries with a matching SRID to be stored in the column. This is PostGIS's way of helping you avoid the mistake of our unfortunate air traffic control technician: that of mismatching our coordinate systems.
+</p>
+<p>
+As we did in part 2, we also need to set the factory for this column so that Rails knows what factory to use when it reads geometries from the database.
+</p>
+<pre style="padding:6px 20px 6px 20px;background-color:#eee;overflow:auto">class ZipCode &lt; ActiveRecord::Base
+  north_wa_factory = ... # use the factory we created earlier
+  set_rgeo_factory_for_column(:boundary, north_wa_factory)
+end</pre>
+<p>
+In general, it is important that the factory you set in your ActiveRecord class matches the constraints in the database column, so that both sides handle the data in the same way. In particular, the SRIDs should match, and either both should be Cartesian or both should be geographic.
+</p>
+<p>
+Now we can read and write the polygon data. We just need to remember that the data is not in latitude-longitude, but in the projected coordinate system. So when we write polygons to the database and read from the database, we will receive projected coordinates.
+</p>
+<p>
+This example, of course, brings up an important question. We need to decide up front whether the database should contain projected data or latitude-longitude data. How do we choose? This can be a somewhat complicated question, and I will dive more deeply into the pros and cons of different strategies in a later article. However, for now we know enough to understand a few of the issues.
+</p>
+<p>
+In many simple cases-- if you are working only with points, or with small features that do not cover a large part of the globe, or if extreme accuracy is not important-- you may find it easiest to think in latitude and longitude. In those cases, you can just create a <code>:geographic</code> column in the database and convert everything to a geographic coordinate system. Just be aware that there are potential issues whenever you have to convert data from one coordinate system to another. As we saw in our story, lines and polygons that span a large area can change their shape dramatically when switching coordinate systems. So if accuracy is essential, it may be desirable for your database to use the same coordinate system as your data source. You also should consider what type of spatial queries you are likely to run against your data. Remember that coordinates in a query must match the SRID and coordinate system of the data in your database.
+</p>
+<h2><a name="TOC-Where-to-go-from-here"></a>Where to go from here</h2>
+<p>
+Congratulations on making it through this article! Understanding coordinate systems can be tricky, but it is very necessary for doing nontrivial applications. In this discussion, I've deliberately left out a number of more advanced topics that I'll probably cover in a later article. But you should now have enough information so you won't get lost when people start talking about projections and SRIDs.
+</p>
+<p>
+If you'd like to explore more about map projections and geospatial coordinate systems, the articles on Wikipedia are not too bad. I'm not aware of any good books on this material geared towards web developers, but if you know of any, please send me a line. For reference, you'll probably find yourself going to <a href="http://www.spatialreference.org/" target="_blank" title="Spatialreference.org">spatialreference.org</a> frequently when you need information on the coordinate system referenced by a particular SRID.
+</p>
+<p>
+For the next article, I'm currently planning on covering common file and data interchange formats used for geospatial data. Stay tuned, and let's bring Rails down to earth!
+</p>
+<p>
+<em>This is part 4 of my continuing series of articles on geospatial programming in Ruby and Rails. For a list of the other installments, please visit <a href="http://daniel-azuma.com/articles/georails" target="_blank" title="Geo-Rails article series">http://daniel-azuma.com/articles/georails</a>.</em>
+</p></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+</div>
+</div> 
+</td> 
+<td id="sites-chrome-sidebar-right" class="sites-layout-sidebar-right" style="width:210px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_20715116360224783" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><p style="text-align:center">
+<img border="1" src="http://gsite.daniel-azuma.com/_/rsrc/1392135198793/updates/mug_small.jpg" />
+</p>
+<p style="text-align:center">
+Daniel Azuma is a software engineer in the Seattle area.</p></div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed"><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:77f758e02286adc5"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/articles" jotId="wuid:gx:77f758e02286adc5" class="sites-navigation-link topLevel">Articles</a></div><ul class="has-expander"><li class="parent " wuid="gx:63933589a24d6669"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/georails" jotId="wuid:gx:63933589a24d6669" class="sites-navigation-link">GeoRails</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-1" jotId="wuid:gx:21263add3704d85a" class="sites-navigation-link">Part 1</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-2" jotId="wuid:gx:583b2472f184df59" class="sites-navigation-link">Part 2</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-3" jotId="wuid:gx:2215c067d09b656d" class="sites-navigation-link">Part 3</a></div></li><li class=""><div class="current-bg" jotId="wuid:gx:736c4f9a4a910dc3" dir="ltr" style="padding-left: 57px;">Part 4</div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-5" jotId="wuid:gx:71e83b60478e8b52" class="sites-navigation-link">Part 5</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-6" jotId="wuid:gx:7c72159f0815753d" class="sites-navigation-link">Part 6</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-7" jotId="wuid:gx:538f6eeef4c76cfc" class="sites-navigation-link">Part 7</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-8" jotId="wuid:gx:7417ef859fc351a7" class="sites-navigation-link">Part 8</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/georails/part-9" jotId="wuid:gx:4fae9206819b4a64" class="sites-navigation-link">Part 9</a></div></li></ul></li><li class="parent closed " wuid="gx:77f18de4f94a3c47"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/articles/talks" jotId="wuid:gx:77f18de4f94a3c47" class="sites-navigation-link">Talks</a></div><ul class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2012" jotId="wuid:gx:6a4476d67668a24a" class="sites-navigation-link">Geospatial Analysis With Rails (RailsConf 2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/articles/talks/railsconf-2013" jotId="wuid:gx:53413222cba48516" class="sites-navigation-link">Humanity on Rails (RailsConf 2013)</a></div></li></ul></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="http://dazuma.github.io/" class="sites-navigation-link topLevel" target="_blank">Github Projects</a></div></li></ul></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/daniel-azuma.com/blog/articles/georails/part-4">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d3f591/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Articles", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://gsite.daniel-azuma.com/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          if (webspace.features.siteNotice) {
+            JOT_setupNoticeManager();
+          }
+        </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>
